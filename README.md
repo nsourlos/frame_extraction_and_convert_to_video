@@ -6,11 +6,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)]( https://github.com/nsourlos/semi-automated_installation_exe_msi_files-Windows_10)
 
-> This script is used to convert a video into a sequence of images. It uses the OpenCV library to read the video and extract the frames.
+> This [script](./video_to_img.py) is used to convert a video into a sequence of images. It uses the OpenCV library to read the video and extract the frames.
 Then, it extracts some masks on those frames, and converts those masks back to a video. 
 
 ### Importing Required Libraries
-The [script](./video_to_img.py) begins by importing the necessary libraries. The OpenCV library (`cv2`) is used for video processing.
+The script begins by importing the necessary libraries. The OpenCV library (`cv2`) is used for video processing.
 
 ### Video Processing
 The script opens the video file using `cv2.VideoCapture(video_path)`. It then gets the total number of frames in the video using `cap.get(cv2.CAP_PROP_FRAME_COUNT)`.
