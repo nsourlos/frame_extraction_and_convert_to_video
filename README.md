@@ -10,7 +10,7 @@
 Then, it extracts some masks on those frames, and converts those masks back to a video. 
 
 ### Importing Required Libraries
-The script begins by importing the necessary libraries. The OpenCV library (`cv2`) is used for video processing.
+The [script](./video_to_img.py) begins by importing the necessary libraries. The OpenCV library (`cv2`) is used for video processing.
 
 ### Video Processing
 The script opens the video file using `cv2.VideoCapture(video_path)`. It then gets the total number of frames in the video using `cap.get(cv2.CAP_PROP_FRAME_COUNT)`.
