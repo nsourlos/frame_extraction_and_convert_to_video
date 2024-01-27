@@ -3,7 +3,6 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)]( https://github.com/nsourlos/semi-automated_installation_exe_msi_files-Windows_10)
 
 > This [script](./video_to_img.py) is used to convert a video into a sequence of images. It uses the OpenCV library to read the video and extract the frames.
@@ -28,5 +27,3 @@ The script also contains commented-out code for processing each frame after it h
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
  
-## License
-[MIT License](LICENSE)
